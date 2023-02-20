@@ -1,0 +1,29 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about-des{
+    font-size: 17px;
+    color: #5a7184;
+  font-family: "roboto";
+  padding: 5px;
+}
+.image{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+}
+@media screen and (max-width:768px) {
+    .about-des{
+        font-size: 15px;
+        color: #5a7184;
+      font-family: "roboto";
+      width: 100vw;
+      text-align: justify;
+      padding : 5px
+    }
+    .image-div{
+        display: none;
+    }
+}

@@ -1,0 +1,37 @@
+.services-container{
+    padding : 20px;
+}
+.services-logo{
+    font-size: 50px;
+    color: blue;
+    margin-bottom: 10px;
+    
+}
+
+.services-desc{
+    font-size: 15px;
+    color: #5a7184;
+    font-family: "roboto";
+}
+
+.services-head{
+    margin-top: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "roboto"
+}
+.services-main-head{
+    margin-top: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:"roboto";
+    color: #183b56;
+    text-decoration: underline;
+    text-decoration-color: blanchedalmond;
+   
+}
+
+.services-container:hover{
+    background-color: aqua;
+    border-radius: 20px;
+}

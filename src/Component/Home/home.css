@@ -1,0 +1,115 @@
+.home-bg{
+  background-image : url("https://t3.ftcdn.net/jpg/03/97/42/02/360_F_397420201_hPMXFOwDZqqG3QaVSojUXtx5QlnDAuhh.jpg");
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.home-heading{
+  color: white;
+  padding: 20px;
+}
+.home-button{
+    width: 130px;
+    height: 45px;
+    background-color: #d0b200;
+    border-width: 0;
+    border-radius: 8px;
+    text-decoration: none;  
+} 
+.home-button a{
+text-decoration: none;
+color: white;
+}
+.wcu{
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "roboto";
+  color: #183b56;
+  padding: 20px;
+}
+.wcu-container{
+  background-color: #f9fbfe;
+}
+.wcu-image{
+  height: 87px;
+  width: 90px;
+}
+.wcu-inner-wcu-container{
+  background-color: white;
+  border-style: solid;
+  padding: 20px;
+  text-align: center;
+  border-radius: 16px;
+  border-width: 1px;
+  border-color: #e5eaf4;
+
+}
+.wcu-heading{
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:"roboto";
+  color: #183b56
+
+}
+.wcu-description{
+  font-size: 15px;
+  color: #5a7184;
+  font-family: "roboto";
+}
+.wcu-sub-head{
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "roboto"
+
+} 
+.offers{
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+.Explore-menu{
+  background-color:white ;
+}
+.Explore-menu-head{
+  color: #183b56;
+  font-size: 28px;
+  font-family: "roboto";
+  font-weight: 700;
+}
+.explore-sub-card{
+  margin: 15px;
+  border-radius: 16px;
+}
+.explore-image{
+   border-radius: 16px;
+}
+.expolre-sub-head{
+  color: #323f4b;
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 18px;
+  }
+
+@media screen and (max-width:768px) {
+  
+  .home-bg{
+    background-image : url("https://t3.ftcdn.net/jpg/03/97/42/02/360_F_397420201_hPMXFOwDZqqG3QaVSojUXtx5QlnDAuhh.jpg");
+    background-size: cover;
+    height: 40vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-heading{
+    font-size: 20px;
+  }
+}

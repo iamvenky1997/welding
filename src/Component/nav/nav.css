@@ -1,0 +1,165 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 1px 2px black;
+    position: sticky;
+    top: 0;
+}
+
+#cross-mark{
+  display: none;
+}
+nav img{
+    width : 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 10px;
+    align-items: center;
+}
+/* .hamburger{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 0 !important;
+  margin: 0;
+  left: 0 !important;
+  top: 0;
+  
+} */
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%; 
+    font-size: 20px;  
+    margin-top: 15px; 
+    font-family: "roboto";
+}
+.nav-links li {
+    list-style-type: none;
+}
+.nav-links li a{
+  color : #5f53cf;
+  text-decoration: none;
+}
+.nav-links li a:hover{
+  /* background-color: #b5aef5  ; */
+  /* padding : 15px; */
+  color: red;
+  /* box-shadow: 1px 1px blue; */
+  /* border-radius: 20px; */
+}
+.social{
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: #183b56;
+    font-style: italic;
+}
+.hamburger{
+    display: none;
+}
+  @media screen and (max-width: 1024px) {
+    .nav-links {
+      width: 40%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .small-nav{
+      min-width: 100vw;
+      min-height: 100vh;
+      background-color: black;
+      display: inline-block;
+    }
+    .small-nav .nav-links{
+      color: white;
+      display: block;
+      width: 100vw;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    .small-nav .nav-links li{
+      padding: 20px; 
+    }
+    .small-nav .nav-links li a{
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .small-nav .nav-links li .links{
+      color: white;
+      list-style: none;
+      text-decoration: none;
+    }
+
+    
+    .small-nav #cross-mark{
+      display: block;
+      color: red;
+      width: 40px;
+      float: right;
+      background-color: black;
+      padding: 14px;
+      align-items: center;
+      border-radius: 50%;
+      margin-right: 20px;
+      box-shadow: 1px 2px white;
+    }
+    .small-nav .title{
+      display: none;
+    }
+
+   .nav-links{
+    display: none;
+   }
+
+  .hamburger{
+    display: inline;
+    align-items: center;
+    display: flex;
+    font-size: larger;
+    padding: 5px;
+    
+  }
+  nav img{
+    display: none;
+  }
+  .title{
+    text-align: center;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  nav{
+    display:flex;
+    padding: 10px;
+    justify-content: flex-start;
+  }
+  }
+  
+  @media screen and (max-width:300px) {
+   .title{
+   display: none;
+   }
+   nav{
+    display: flex;
+   
+   }
+   nav img{
+    display: none;
+   }
+  }
+ 
