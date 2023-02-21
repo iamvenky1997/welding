@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/welding/static/css/main.86487680.css",
-    "main.js": "/welding/static/js/main.428662ea.js",
-    "static/js/787.b61035a8.chunk.js": "/welding/static/js/787.b61035a8.chunk.js",
-    "static/media/logo.jpg": "/welding/static/media/logo.87e1d40a30008d4a6a4f.jpg",
-    "index.html": "/welding/index.html",
-    "main.86487680.css.map": "/welding/static/css/main.86487680.css.map",
-    "main.428662ea.js.map": "/welding/static/js/main.428662ea.js.map",
-    "787.b61035a8.chunk.js.map": "/welding/static/js/787.b61035a8.chunk.js.map"
+    "main.css": "/iamvenky1997.github.io/welding/static/css/main.86487680.css",
+    "main.js": "/iamvenky1997.github.io/welding/static/js/main.ad66470c.js",
+    "static/js/787.b61035a8.chunk.js": "/iamvenky1997.github.io/welding/static/js/787.b61035a8.chunk.js",
+    "static/media/logo.jpg": "/iamvenky1997.github.io/welding/static/media/logo.87e1d40a30008d4a6a4f.jpg",
+    "index.html": "/iamvenky1997.github.io/welding/index.html",
+    "main.86487680.css.map": "/iamvenky1997.github.io/welding/static/css/main.86487680.css.map",
+    "main.ad66470c.js.map": "/iamvenky1997.github.io/welding/static/js/main.ad66470c.js.map",
+    "787.b61035a8.chunk.js.map": "/iamvenky1997.github.io/welding/static/js/787.b61035a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86487680.css",
-    "static/js/main.428662ea.js"
+    "static/js/main.ad66470c.js"
   ]
 }
